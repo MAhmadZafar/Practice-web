@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(auto-fit ,minmax(200px,1fr));
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer';
+
+
+        }
+      
+        .grid {
+            border: 2px solid black;
+            background-color: rgb(187, 255, 0);
+            padding: 4px 5px;
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            grid-area: footer;
+        }
+        
+        
+        </style>
+        
+</head>
+
+<body>
+    <div class="cont" id="vv">
+        <div id="navbar" class="grid">Home About Us Take Get </div>
+        <div id="section" class="grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea rem mollitia laudantium inventore unde! Suscipit quos debitis rerum cumque molestias quis, aliquam voluptates magni recusandae consequuntur cupiditate nisi quod voluptate? Explicabo perferendis reiciendis quam.</div>
+        <div id="aside" class="grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque saepe, praesentium labore aspernatur sint pariatur ullam optio vitae aut enim.</div>
+        <div id="footer" class="grid">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, cumque.</div>
+    </div>
+</body>
+
+</html>

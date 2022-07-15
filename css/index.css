@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Titan One' !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+#logo{
+    margin: 34px 45px;
+}
+
+#logo img{
+    height: 64px;
+    margin: -20px -20px;
+    background-color: rgba(229, 235, 240, 0.342);
+    padding: 0px 5px;
+    border-radius: 15px;
+    
+}
+#navbar ul{
+    display: flex;
+    margin-left: -10px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    padding: 3px 15px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    border-radius: 15px;
+}
+#navbar ul li a:hover{
+    
+    color:black;
+    background-color: white;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background:url('/pics/gym\ pic.jpg') no-repeat center center/cover;
+    padding-top: 300px;
+    margin-bottom: 80px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    
+}
+#home p{
+    color: white;
+    text-align: center;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px ;
+    margin-top: 20px;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px ;
+}
+#services{
+    margin: 24px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid red;
+    
+}
+#services .box img{
+    height: 150px;
+    display: block;
+    margin: auto;
+
+}
+#services{}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(207, 167, 130);
+    color: white;
+    margin: 17px ;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.center{
+    text-align: center;
+}
+.box{
+    margin: 0px 5px;
+    padding: 10px 15px;
+    background-color: beige;
+    border-radius: 20px;
+    font-size: 0.7rem;
+}
+#im{
+    
+    margin-top: 25px !important;
+    margin-bottom: -23px !important;
+}

@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;
+}
+
+body,textarea,input,select{
+    background-color: lightpink;
+    box-sizing: border-box;
+
+}
+.hello{
+    width: 66px;
+}
+p#qqq{
+    
+    box-sizing: border-box;
+    border: 2px solid brown;
+    padding-left: 10px;
+    margin: auto;
+    width: 100px;
+    /* position: fixed;
+    right: 4px;
+    bottom: 4px; */
+    position: sticky;
+    top: 5px;
+}
+p#qqq:hover{
+    
+    box-sizing: border-box;
+    border: 2px solid brown;
+    padding-left: 10px;
+    margin: auto;
+    width: 100px;
+    /* position: fixed;
+    right: 4px;
+    bottom: 4px; */
+    position: sticky;
+    top: 4px;
+    background-color: aqua;
+    cursor: pointer;
+    
+}

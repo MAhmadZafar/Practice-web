@@ -1,0 +1,58 @@
+#services{
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+}
+#services .box{
+    border: 2px solid red;
+    overflow: hidden;
+}
+.box{
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    float:inline-end;
+}
+.h-primary{
+    font-size: 2rem;
+    padding: 0px ;
+}
+.h-primary{
+    font-size: 2rem;
+    padding: 0px ;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1rem;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 980px;
+    padding: 3px 70px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background:url('/pics/gym\ pic.jpg') no-repeat center center/cover;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    height: 190%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#services .box{
+    border: 2px solid red;
+    padding: 4px 20px 10px 35px ;
+    margin: 7px 150px;
+}

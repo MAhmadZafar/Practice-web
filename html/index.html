@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="/pics/gym logo2.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("/pics/gym\ pic.jpg");
+            background-size: 100vw 150vh;
+            background-repeat: no-repeat;
+            color:white;
+            font-family: 'Titan One';
+            background-color: black;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 15px;
+            left: 25px;
+            background-color: black;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        .left img{
+            width: 100px;
+            padding-left: 9px;
+            padding-right: 8px;
+            filter:invert(100%)
+        }
+
+        .mid {
+            display: inline-block;
+            position: absolute;
+            /* border: 2px solid blue; */
+            left: 300px;
+            top: 20px;
+            background-color: rgba(199, 147, 134, 0.616);
+            border-radius: 9px;
+            width: 48%;;
+            font-family: 'Titan One', cursive;
+            font-size: 21px;
+        }
+        
+
+        .right {
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            position: absolute;
+            top: 20px;
+            right: 0px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color:white;
+            padding: 0px 23px 0px 15px;
+        }
+        .navbar li a:hover{
+            text-decoration: none;
+            color:black;
+            text-decoration: underline;
+        }
+        .navbar{
+            display: inline-block;
+        }
+
+        .navbar li{
+            display: inline-block;
+            /* font-size: 1.3rem; */
+            cursor: pointer;
+        }
+        .btn{
+            margin: 0px 5px ;
+            background-color:black;
+            border: 2px solid grey;
+            border-radius: 13px;
+            color: white;
+            font-size: 18px;
+            padding-top: 14px;
+            padding-bottom: 13px;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer;
+            font-family: 'Titan One', cursive;
+        }
+        .btn:hover{
+            color:black;
+            background-color: white;
+           
+        
+        }
+        .container{
+            position: absolute;
+            left: 500px;
+            top: 550px;
+            font-size: 30px;
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.479);
+            padding: 5px 10px 5px 15px;
+            font-family: 'Titan One', cursive;
+            
+        }
+        .container:hover{
+            padding: 12px 35px 10px 35px;
+            left: 480px;
+        }
+        .forms{
+            position: absolute;
+            left: 200px;
+            top: 670px;
+            right: 250px;
+            margin-bottom: 50px;
+            font-size: 30px;
+            
+            background-color: rgba(255, 255, 255, 0.479);
+            padding: 10px 500px 0px 20px;
+            border: 5px solid white;
+            border-bottom: 20px solid;
+            font-family: 'Titan One', cursive;
+            padding-bottom: 10px;
+        }
+        .input{
+            font-family: 'Titan One', cursive;
+            margin: 10px 50px 10px 20px;
+            height: 30px;
+            width: 200px;
+            padding-left: 10px;
+            border: 3px solid rgb(100, 99, 99);
+            border-radius: 4px;
+            text-align: center;
+            
+        }
+        .input:hover{
+            border: 3px solid black;
+        }
+        
+       .submit{
+            padding: 5px 2px 7px 6px;
+            color:white;
+            background-color:black;
+            border-radius: 5px;
+            margin-left: 22px ;
+            font-size: 14px;
+            font-family: Titan One;
+            margin-bottom: 20px;
+            width: 110px;
+            margin-top: 10px;cursor: pointer;
+        }
+        
+       #reset{
+        position: absolute;
+            padding: 6px 3px 6px 6px;
+            color:white;
+            background-color:black;
+            border-radius: 5px;
+            margin-left: 4px ;
+            font-size: 14px;
+            margin-top: 10px;
+            font-family: Titan One;
+            margin-bottom: 21px;
+            width: 100px;
+            cursor: pointer;
+        }
+        .submit:hover{
+            color:black;
+            background-color: white;
+        }
+        #reset:hover{
+            color:black;
+            background-color: white;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        input:nth-child(1){
+            margin-top: 30px;
+        }
+        @media(max-width:1000px){
+            .left{
+                
+                background:red;
+                animation-name: Hello;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-delay: 3s;
+                
+            }
+            @keyframes Hello{
+            form{
+                width:20px;
+            }
+            to{
+                width:200px;
+            }
+        }
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="/pics/gym logo2.jpg" alt="error">
+            <div style="font-size: 15px;padding-top: 0px; padding-left: 10px;font-family: Titan One; ">Fitness Club</div>
+        </div>
+        <div class="mid">
+           <ul class="navbar">
+            <li><a href="https://google.com" target="_blank">Home</a></li>
+            <li><a href="" target="_blank">About Us</a></li>
+            <li><a href="" target="_blank">Contact Us</a></li>
+            <li><a href="" target="_blank">Fitness Test</a></li>
+           </ul>
+        </div>
+        <div class="right">
+            <button class="btn">E-mail Now</button>
+            <button class="btn">Register Now</button>
+        </div>
+    </header>
+    <div class="container">
+  <a href="#forms" style="text-decoration: none; color:white;">  <span>Start Traning Now &#x21e9;</span></a>
+    </div>   
+    <div class="forms" id="forms">
+        <span>Enter Your Details Here!</span>
+        <form action="index.js">
+            <input class="input" type="text"  placeholder="Enter Your Name Here" required>
+            <input  class="input" type="number" min="0" placeholder="Enter Your Age" required>
+            <input class="input"  type="text" placeholder="Enter Your City Name"required>
+            <input class="input"  type="number" min="0" placeholder="Enter Work Hours" required>
+            <input class="submit" type="submit" value="Submit Form" style="padding-right: 10px;">            
+            <input id="reset" type="reset" value="Reset Form" style="padding-right: 10px;">            
+
+        </form>
+    </div> 
+    
+</body>
+
+</html>
