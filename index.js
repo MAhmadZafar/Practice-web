@@ -2,7 +2,7 @@ const path =require("path");
 const fs= require("fs");
 const http=require("http");
 const { Server } = require("https");
-        let About = fs.readFileSync(path.resolve(__dirname,"./html/grid.html"));
+        let About = fs.readFileSync(path.join(__dirname,"./html/grid.html"));
         let home =fs.readFileSync("../home.html");
 
 //    const server =  http.createServer((req,res)=>{
