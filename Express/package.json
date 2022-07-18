@@ -9,7 +9,10 @@
   "author": "Ahmad",
   "license": "ISC",
   "dependencies": {
+    "alert": "^5.1.1",
     "express": "^4.18.1",
+    "line-reader": "^0.4.0",
+    "popups": "^1.1.3",
     "pug": "^3.0.2"
   }
 }
